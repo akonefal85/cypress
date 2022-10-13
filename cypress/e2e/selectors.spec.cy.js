@@ -5,7 +5,7 @@ describe('Lokatory', () => {
 
     cy.get("[name='_nkw']");
 
-    cy.get("[placeholder='Wyszukaj']");
+    cy.get("[placeholder='Wyszukaj cos']");
 
     cy.contains("Moda");
 
