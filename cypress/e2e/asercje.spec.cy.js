@@ -38,7 +38,7 @@ describe('Asercje', () => {
       // asercje napopularniejsze
 
           cy.get('.tr-by').should('be.visible').and('contain.value', 1);
-          cy.get('.tr-by').should('contain.text');
+          cy.get('.tr-by').should('contain.text', 'test');
 
 
     });
