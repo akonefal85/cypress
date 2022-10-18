@@ -9,6 +9,10 @@
 // ***********************************************
 //
 //
+
+const compareSnapshotCommand = require('cypress-image-diff-js/dist/command')
+compareSnapshotCommand();
+
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 Cypress.Commands.add('zalogowanie', (email, password) => {

@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run-tests": "cypress run",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
   },
   "author": "Aleksandra",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.10.0"
+    "cypress": "^10.10.0",
+    "cypress-image-diff-js": "^1.22.0"
+  },
+  "dependencies": {
+    "cypress-visual-regression": "^1.7.0"
   }
 }
